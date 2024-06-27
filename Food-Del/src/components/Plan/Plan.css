@@ -1,0 +1,100 @@
+/* Plan.css */
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 20px; /* Adjust the margin between the container and the next element */
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+.meal-recipe {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-width: 35rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px; /* Increase the gap between two card containers */
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.title {
+  color: orangered;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  font-weight: 500;
+}
+
+.card-container {
+  position: relative; /* Make the container relative to position the recipe popup */
+}
+
+
+
+.recipe {
+  position: relative;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 1;
+  max-width: 100%; /* Ensures the width doesn't exceed the parent container */
+  height: 200%; /* Increased height */
+  overflow-y: auto; /* Enables vertical scrolling if content is taller than the container */
+  overflow-wrap: break-word; /* Ensures long words do not break the layout */
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .container {
+    gap: 30px;
+  }
+}
