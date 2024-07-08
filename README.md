@@ -11,7 +11,7 @@
 # Upload available ingridients and let the magic happen
 ![Screenshot 2024-06-27 124717](https://github.com/atupatu/Food-Planner-AI/assets/127887646/8a852806-ec3f-4786-a7a2-1582ad2da590)
 
+![Screenshot 2024-06-27 124841](https://github.com/atupatu/Food-Planner-AI/assets/127887646/01eb96db-bd23-4913-b843-6b6bc60ef3e3)
+
 # A personalized dietary assistant at your disposal
 ![Screenshot 2024-06-27 124745](https://github.com/atupatu/Food-Planner-AI/assets/127887646/dfe88003-9cc2-4f9a-9f5d-7983e3bd5ffd)
-
-![Screenshot 2024-06-27 124841](https://github.com/atupatu/Food-Planner-AI/assets/127887646/01eb96db-bd23-4913-b843-6b6bc60ef3e3)
